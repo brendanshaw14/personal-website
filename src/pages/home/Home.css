@@ -15,13 +15,13 @@ body{
 }
 
 .name-text { 
-    font-size: 3em;
+    font-size: 4vw;
     color: #ffffff;
     text-align: center;
 }
 
 .name-subtext-intro { 
-    font-size: 2em;
+    font-size: 1vw;
     color: #ffffff;
 }
 
@@ -33,17 +33,18 @@ body{
 
 .about-me-container {
     height: 40vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    padding-right: 5%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-right: 10vw;
     display: flex;
     align-items: center; /* Vertically center the content */
 }
 
 .profile-photo {
     border-radius: 50%;
+    height: auto;
     padding: 5%;
-    flex: 1; /* Allow the profile photo to take up available space */
+    flex: 1; 
     overflow: hidden;
 }
 
@@ -52,10 +53,7 @@ body{
     height: 100%;
     max-height: 100%;
     flex: 2; 
-    display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
     border-radius: 5vh;
     font-weight: bold;
 }
@@ -63,7 +61,7 @@ body{
 .about-me-text-container h2 { 
     max-height: 100%;
     font-size: 4vw;
-    padding: 5%;
+    padding-top: 5%;
     margin: 0;
     text-align: center;
 }
@@ -76,4 +74,43 @@ body{
     margin: 0;
     font-size: 2vw;
     text-align: center;
+}
+
+.home-sections-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    background-color: #f4f4f4;
+}
+
+.home-sections-title {
+    text-align: left;
+    width: 100%;
+}
+
+.home-sections-title h2 {
+    font-size: 5vw;
+    padding-left: 5vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.card-container {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.card-list {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    gap: 5vw;
+    padding-left: 5vw;
+}
+
+.cap{
+    color: #84ceff;
 }

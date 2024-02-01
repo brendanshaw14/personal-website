@@ -12,7 +12,7 @@ import Hobbies from './pages/Hobbies.js'
 import Contact from './pages/Contact.js'
 
 // component imports
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar.js';
 
 function App() {
   return (
