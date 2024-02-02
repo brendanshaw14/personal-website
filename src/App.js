@@ -5,7 +5,7 @@ import './App.css';
 
 // page imports
 import Home from './pages/home/Home.js'
-import Academics from './pages/Academics.js'
+import Education from './pages/education/Education.js'
 import Experience from './pages/Experience.js'
 import Projects from './pages/Projects.js'
 import Hobbies from './pages/Hobbies.js'
@@ -22,7 +22,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/academics" element={<Academics />} />
+        <Route path="/education" element={<Education />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/hobbies" element={<Hobbies />} />

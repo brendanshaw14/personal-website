@@ -2,8 +2,16 @@ import React from 'react';
 import { keyframes } from "@emotion/react";
 import { Fade } from "react-awesome-reveal";
 import './Home.css';
-import Card from '../../components/Card/Card';
 import pfp from '../../images/pfp.jpg';
+import SectionCard from '../../components/SectionCard/SectionCard.js';
+
+// icon imports
+import { FaGitAlt } from "react-icons/fa";
+import { IoSchoolSharp } from "react-icons/io5";
+import { HiClipboardDocumentList } from "react-icons/hi2";
+import { MdOutlineSportsHandball } from "react-icons/md";
+import { IoIosContact } from "react-icons/io";
+
 
 const Home = () => {
     const slideUp = keyframes`
@@ -17,30 +25,34 @@ const Home = () => {
 
     const cards = [
         {
-            title: 'Academics',
-            imageSrc: 'https://via.placeholder.com/150',
-            link: '/academics', 
-            color: '#84ceff'
+            title: 'Education',
+            icon: <IoSchoolSharp size='30%' color='bdefff'/>,
+            link: '/education', 
+            text: "View my academic history, studies at Dartmouth, and some of my favorite courses that I've taken."
         },
         {
             title: 'Experience',
-            imageSrc: 'https://via.placeholder.com/150',
-            link: '/experience'
+            icon: <HiClipboardDocumentList size='30%' color='#e6bdff'/>,
+            link: '/experience', 
+            text: "Some details about my work experience and internships."
         },
         {
             title: 'Projects',
-            imageSrc: 'https://via.placeholder.com/150',
-            link: '/projects'
+            icon: <FaGitAlt size='25%' color='#fff875'/>, 
+            link: '/projects', 
+            text: "Explore some of the main projects i've worked on, including both personal and school projects."
         },
         {
             title: 'Hobbies',
-            imageSrc: 'https://via.placeholder.com/150',
-            link: '/hobbies'
+            icon: <MdOutlineSportsHandball size='30%' color='#86ff9c'/>,
+            link: '/hobbies', 
+            text: "Take a look at what I do in my free time and on campus at Dartmouth."
         },
         {
             title: 'Contact',
-            imageSrc: 'https://via.placeholder.com/150',
-            link: '/contact'
+            icon: <IoIosContact size='30%' color='#ff9b9b'/>,
+            link: '/contact',
+            text: "View my academic history, studies at Dartmouth, and some of my favorite courses that I've taken"
         }];
     return (
         <div className="Home">
@@ -76,9 +88,19 @@ const Home = () => {
                 </div>
                 <div className='card-container'>
                     <ul className='card-list'>
-                        <li className='card-li'><Card title={cards[0].title} imageSrc={cards[0].imageSrc} link={cards[0].link} color={cards[0].color} /></li>
-                        <li className='card-li'><Card title={cards[2].title} imageSrc={cards[2].imageSrc} link={cards[2].link} color={cards[1].color} /></li>
-                        <li className='card-li'><Card title={cards[1].title} imageSrc={cards[1].imageSrc} link={cards[1].link} color={cards[2].color} /></li>
+                        {cards.map((sectionCard, index) => (
+                            <li className='card-li' key={index}>
+                                <SectionCard
+                                    title={sectionCard.title}
+                                    icon={sectionCard.icon}
+                                    link={sectionCard.link}
+                                    text={sectionCard.text}
+                                    headerColor={'white'}
+                                    bodyColor={'white'}
+                                    cardStyle={{backgroundColor:'black', height:'40vw', width:'30vw'}}
+                                />
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>

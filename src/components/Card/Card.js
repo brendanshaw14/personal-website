@@ -1,26 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Fade } from "react-awesome-reveal";
 import './Card.css';
 
-const Card = ({ title, imageSrc, link, color}) => {
+const SectionCard = ({ header, body, backgroundColor, headerColor, bodyColor }) => {
     return (
-        <div className="card" style={{{
-            background-color: #e4e4e4;
-            display: flex;
-            justify-content: space-evenly;
-            height: 30vw;
-            width: 20vw;
-            flex-direction: column;
-            border-radius: 3vw;
-            padding: 5%;}}>
-        <Link to={link} className="card" style={{color:`${color}`}}>
-            <h2>{title}</h2>
-            <img src={imageSrc} alt={title} />
-            <div className="footer">
-                <Link to={link}>Learn More</Link>
-            </div>
-        </Link>
+        <div className="text-card" style={{backgroundColor: `${backgroundColor}`}}>
+            <Fade triggerOnce fraction={0.5} duration={2000}>
+                <h2 style={{color: `${headerColor}`}}>{header}</h2>
+                <div className="text-card-body">
+                    <p> {body} </p>
+                </div>
+            </Fade>
+        </div>
     );
 };
 
-export default Card;
+export default SectionCard;
