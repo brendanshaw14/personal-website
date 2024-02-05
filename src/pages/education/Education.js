@@ -11,7 +11,38 @@ const Education = () => {
         link: '/education', 
         color: '#bdefff', 
         text: "Inroduction to Computer Science"
-    }];
+    }, 
+    {
+        title: 'CS 10',
+        link: '/education', 
+        color: '#bdefff', 
+        text: "Object Oriented Problem Solving"
+    }, 
+    {
+        title: 'CS 30',
+        link: '/education', 
+        color: '#bdefff', 
+        text: "Discrete Mathematics"
+    }, 
+    {
+        title: 'CS 50',
+        link: '/education', 
+        color: '#bdefff', 
+        text: "Software Design and Implementation"
+    }, 
+    {
+        title: 'CS 76',
+        link: '/education', 
+        color: '#bdefff', 
+        text: "Artificial Intelligence"
+    }, 
+    {
+        title: 'CS 89.25',
+        link: '/education', 
+        color: '#bdefff', 
+        text: "Data Mining and Knowledge Discovery"
+    }
+    ];
 
     return (
         <div>
@@ -48,10 +79,8 @@ const Education = () => {
                                     link={sectionCard.link}
                                     text={sectionCard.text}
                                     headerColor={'#080808'}
-                                    bodyColor={'#080808'}
-                                    background={'#f3f3f3'}
-                                    height={'20vw'}
-                                    width={'30vw'}
+                                    bodyColor={'#4b4b4b'}
+                                    cardStyle={{backgroundColor: '#f3f3f3', height:'20vw', width:'30vw'}}
                                 />
                             </li>
                         ))}
