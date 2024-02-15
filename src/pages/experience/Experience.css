@@ -180,16 +180,21 @@
     transition: transform 0.3s ease; /* Transition for the card itself */
 }
 
-.project-card-container:hover .project-card {
-    transform: scale(1.05); /* Scale the card within the container */
+.project-card-container {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Ensure smooth transitions for transform and opacity */
 }
 
-.projects-container :hover ~ .project-card {
-    opacity: 0.6; 
+.project-card-container .project-card {
+    transform: scale(1); /* Start at normal scale */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.project-card-container:hover .project-card {
+    transform: scale(1.05); /* Scale up when hovered */
 }
 
 .projects-content:hover .project-card-container:not(:hover) {
-    opacity: 0.6; /* Darken other cards */
+    opacity: 0.6; /* Darken the siblings of the hovered card */
 }
 
 .project-link { 
