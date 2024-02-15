@@ -1,12 +1,10 @@
 .header-container {
-    max-width: 100%;
-    max-height: 100%;
     overflow: hidden;
     background-image: url('../../images/dartmouth_aerial.jpeg'); /* Replace 'your-photo.jpg' with the image path */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 50vw; /* Adjust the desired height */
+    height: 60vw; /* Adjust the desired height */
 }
 
 .header-text-container {
@@ -30,12 +28,8 @@
     background-color: #f3f3f3;
     box-sizing: border-box;
     max-height: 80%;
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
-    max-width: 100%;
     border-radius: 3vw;
-    margin-left: 10%;
+    margin-left:10%;
     margin-right: 10%;
     padding: 8%;
 }
@@ -54,12 +48,11 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #1a1a1a;
-    padding: 5%;
     text-align: center;
 }
 
 .major-text-container {
-    margin-bottom: 5vh;
+    padding: 5%;
 }
 
 .major-text-container h1{
@@ -74,15 +67,41 @@
 
 .major-cards-container {
     box-sizing: border-box;
+    padding-bottom: 5%;
+    width: 100%;
     overflow-x: auto; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Prevent vertical scrolling */
     white-space: nowrap; /* Prevent wrapping of list items */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling for touch devices */
+
+}
+
+.major-card-list{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    gap: 5vw;
 }
 
 .major-cards-container::-webkit-scrollbar {
     display: none; /* Hides the scrollbar */
 }
+
+.minor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 5%;
+    text-align: center;
+}
+
+.minor-content-container {
+    margin-bottom: 5vh;
+    width: 100%; 
+}
+
 
 .color-test{
     background-attachment: #4b4b4b;

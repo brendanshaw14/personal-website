@@ -86,8 +86,8 @@ const Home = () => {
                 <div className='home-sections-title'>
                     <h2>Explore</h2>
                 </div>
-                <div className='card-container'>
-                    <ul className='card-list'>
+                <div className='section-card-container'>
+                    <ul className='sections-card-list'>
                         {cards.map((sectionCard, index) => (
                             <li className='card-li' key={index}>
                                 <SectionCard

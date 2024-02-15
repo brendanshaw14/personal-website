@@ -7,38 +7,38 @@ const Education = () => {
 
     const cards = [
     {
-        title: 'CS 1',
-        link: '/education', 
+        title: 'COSC 1',
+        link: 'https://dartmouth.smartcatalogiq.com/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-1/', 
         color: '#bdefff', 
-        text: "Inroduction to Computer Science"
+        text: "Introduction to Programming and Computation"
     }, 
     {
-        title: 'CS 10',
-        link: '/education', 
+        title: 'COSC 10',
+        link: "https://dartmouth.smartcatalogiq.com/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-10/", 
         color: '#bdefff', 
-        text: "Object Oriented Problem Solving"
+        text: "Problem Solving via Object-Oriented Programming"
     }, 
     {
-        title: 'CS 30',
-        link: '/education', 
+        title: 'COSC 30',
+        link: 'https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-30/', 
         color: '#bdefff', 
-        text: "Discrete Mathematics"
+        text: "Discrete Mathematics in Computer Science"
     }, 
     {
-        title: 'CS 50',
-        link: '/education', 
+        title: 'COSC 50',
+        link: 'https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-50/', 
         color: '#bdefff', 
         text: "Software Design and Implementation"
     }, 
     {
-        title: 'CS 76',
-        link: '/education', 
+        title: 'COSC 76',
+        link: 'https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-76/', 
         color: '#bdefff', 
         text: "Artificial Intelligence"
     }, 
     {
-        title: 'CS 89.25',
-        link: '/education', 
+        title: 'CS 89.21',
+        link: 'https://dartmouth.smartcatalogiq.com/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-89-21/', 
         color: '#bdefff', 
         text: "Data Mining and Knowledge Discovery"
     }
@@ -65,12 +65,12 @@ const Education = () => {
                             <h1>Computer Science</h1> 
                         </Fade>
                         <Fade triggerOnce fraction={0.5} duration={1000} delay={500}>
-                        <h2>Below are the courses I've taken in the computer science department thus far. I intend to focus primarily on <span style={{color: '#efefef'}}>applied computer science </span> through my upcoming courses. </h2>
+                        <h2>Below are the courses I've taken in the computer science department thus far. I intend to focus primarily on <span style={{color: '#efefef'}}>applied computer science </span> through my upcoming courses. Click the cards below for more course information. </h2>
                         </Fade>
                     </div>
                 </div>
                 <div className='major-cards-container'>
-                    <ul className='card-list'>
+                    <ul className='major-card-list'>
                         {cards.map((sectionCard, index) => (
                             <li className='card-li' key={index}>
                                 <SectionCard
@@ -80,14 +80,32 @@ const Education = () => {
                                     text={sectionCard.text}
                                     headerColor={'#080808'}
                                     bodyColor={'#4b4b4b'}
-                                    cardStyle={{backgroundColor: '#f3f3f3', height:'20vw', width:'30vw'}}
+                                    cardStyle={{backgroundColor: '#f3f3f3', height:'25vw', width:'30vw'}}
                                 />
                             </li>
                         ))}
                     </ul>
                 </div>
             </div>
-            
+            <div className='minor-container'>
+                <div className='minor-text-container'>
+                    <div className='minor-text-header'>
+                        <Fade triggerOnce fraction={0.5} duration={1000}>
+                            <h1>Spanish</h1> 
+                        </Fade>
+                        <Fade triggerOnce fraction={0.5} duration={1000} delay={500}>
+                        <div className='minor-content-container'>
+                            <div className='intro-courses-container'>
+                                <h2>Introductory Courses</h2>
+                            </div>
+                            <div className='fsp-container'>
+                            </div>
+                        </div>
+                        <h2>i</h2>
+                        </Fade>
+                    </div>
+                </div>
+            </div>           
         </div>
     );
 };

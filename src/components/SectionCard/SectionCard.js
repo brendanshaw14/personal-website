@@ -6,7 +6,7 @@ import './SectionCard.css';
 const SectionCard = ({ title, icon, link, text, headerColor, bodyColor, cardStyle}) => {
 
     return (
-        <Link to={link} className="section-card-link">
+        <Link to={link} target="_blank" className="section-card-link">
             <div className="section-card" style={cardStyle}>
                 <Fade triggerOnce fraction={0.5} duration={2000}>
                     <h2 style={{color: `${headerColor}`}}>{title}</h2>
