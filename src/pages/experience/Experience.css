@@ -8,6 +8,7 @@
     background-color: #121212;
     margin: 0;
     text-align: center;
+    padding-top: 10%;
 }
 
 .intro-container h1{
@@ -20,15 +21,39 @@
     color: rgb(213, 213, 213);
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 10%;
     font-size: 1.5vw;
     margin: 0;
 }
+
 
 .experience-container{
     width: 100%;
     margin: 0;
     background-color: #121212;
     padding-bottom: 10%;
+}
+
+.border { 
+    content: '';
+    position: relative;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #767676;
+    animation: expandBorder 2s ease forwards; 
+}
+
+@keyframes expandBorder {
+    0% {
+        width: 0;
+        left: 50%;
+    }
+    100% {
+        width: 80%;
+        left: 10%;
+    }
 }
 
 .experience-header{
@@ -135,6 +160,7 @@
 }
 
 .project-card-container { 
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transitions for both properties */
     height: 100%;
     width: 33%;
     display: flex;
@@ -151,10 +177,19 @@
     border-radius: 2vw;
     height: 100%;
     box-sizing: border-box; 
+    transition: transform 0.3s ease; /* Transition for the card itself */
 }
 
-.project-card-container :hover{ 
-    transform: scale(1.1);
+.project-card-container:hover .project-card {
+    transform: scale(1.05); /* Scale the card within the container */
+}
+
+.projects-container :hover ~ .project-card {
+    opacity: 0.6; 
+}
+
+.projects-content:hover .project-card-container:not(:hover) {
+    opacity: 0.6; /* Darken other cards */
 }
 
 .project-link { 

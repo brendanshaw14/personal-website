@@ -68,6 +68,7 @@ const Home = () => {
                     </Fade>
                 </Fade>
             </div>
+            <div className='home-border'></div>
             <div className='about-me-container'>
                 <img
                     src={pfp}
