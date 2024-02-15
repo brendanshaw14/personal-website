@@ -83,6 +83,7 @@ const Home = () => {
                     </Fade>
                 </div>
             </div>
+            <div className='home-border'></div>
             <div className='home-sections-container'> 
                 <div className='home-sections-title'>
                     <h2>Explore</h2>
@@ -96,9 +97,9 @@ const Home = () => {
                                     icon={sectionCard.icon}
                                     link={sectionCard.link}
                                     text={sectionCard.text}
-                                    headerColor={'white'}
-                                    bodyColor={'white'}
-                                    cardStyle={{backgroundColor:'black', height:'40vw', width:'30vw'}}
+                                    headerColor={'black'}
+                                    bodyColor={'black'}
+                                    cardStyle={{backgroundColor:'#e9e9e9', height:'40vw', width:'30vw'}}
                                 />
                             </li>
                         ))}
