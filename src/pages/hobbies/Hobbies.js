@@ -1,6 +1,7 @@
 import React from 'react';
 import skiing from "../../images/skiing.jpg";
 import toadboat from "../../images/toadboat.jpg";
+import { Fade } from 'react-awesome-reveal';
 import "./Hobbies.css";
 
 const Hobbies = () => {

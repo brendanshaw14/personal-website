@@ -128,19 +128,39 @@
 }
 
 .album-content-container { 
-    width: 100%;
+    max-width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .album {
-    width: 23.5vw;
-    height: 30vw;
     border-radius: 12px;
-    padding-right: 5%;
     padding-bottom: 5%;
+    }
+
+@media (min-width: 600px ) and (max-width: 1009px){
+    .album {
+        width: 30vw; /* Adjust as needed */
+        height: 20vw; /* Adjust as needed */
+    }
+}
+
+@media (min-width: 1010px) and (max-width: 1200px) {
+    .album {
+        width: 23.5vw; /* Adjust as needed */
+        height: 15vw; /* Adjust as needed */
+    }
+}
+
+@media (min-width: 1201px) {
+    .album {
+        width: 23.5vw; /* Adjust as needed */
+        height: 30vw; /* Adjust as needed */
+    }
 }
