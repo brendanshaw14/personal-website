@@ -1,0 +1,146 @@
+.hobbies-intro-container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vw;
+    width: 100%;
+    background-color: #121212;
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.hobbies-intro-container h1{
+    color: white;
+    font-size: 7vw;
+    text-wrap: wrap;
+}
+
+.hobbies-intro-container h2{
+    color: rgb(213, 213, 213);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.hobbies-content-container {
+    background-color: #121212;
+
+}
+
+.sports-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #121212;
+}
+
+.sports-header { 
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.sports-header h1{
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.sports-content{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.sports-text{
+    color: #b6b6b6;
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 150%;
+}
+
+.sports-content img{
+    padding-left: 10%;
+    padding-top: 3%;
+    width: 30vw;
+    height: auto;
+}
+
+.music-header { 
+    padding-left: 10%;
+}
+
+.music-header h1{
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.music-content{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.music-text{
+    color: #b6b6b6;
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 150%;
+}
+
+.music-content img{
+    padding-top: 3%;
+    padding-left: 10%;
+    width: 30vw;
+    height: auto;
+}
+
+.album-container { 
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
+
+.album-header-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+}
+
+.album-content-container { 
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: 23.5vw;
+    height: 30vw;
+    border-radius: 12px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}

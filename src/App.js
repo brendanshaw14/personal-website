@@ -7,7 +7,7 @@ import './App.css';
 import Home from './pages/home/Home.js'
 import Education from './pages/education/Education.js'
 import Experience from './pages/experience/Experience.js'
-import Hobbies from './pages/Hobbies.js'
+import Hobbies from './pages/hobbies/Hobbies.js'
 import Contact from './pages/Contact.js'
 
 // component imports

@@ -99,7 +99,7 @@ const Home = () => {
                                     text={sectionCard.text}
                                     headerColor={'black'}
                                     bodyColor={'black'}
-                                    cardStyle={{backgroundColor:'#e9e9e9', height:'40vw', width:'30vw'}}
+                                    cardStyle={{backgroundColor:'#eeeeee', height:'40vw', width:'30vw'}}
                                 />
                             </li>
                         ))}
