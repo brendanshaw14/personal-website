@@ -6,11 +6,10 @@ import pfp from '../../images/pfp.jpg';
 import SectionCard from '../../components/SectionCard/SectionCard.js';
 
 // icon imports
-import { FaGitAlt } from "react-icons/fa";
 import { IoSchoolSharp } from "react-icons/io5";
 import { HiClipboardDocumentList } from "react-icons/hi2";
 import { MdOutlineSportsHandball } from "react-icons/md";
-import { IoIosContact } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -26,34 +25,24 @@ const Home = () => {
     const cards = [
         {
             title: 'Education',
-            icon: <IoSchoolSharp size='30%' color='bdefff'/>,
+            icon: <IoSchoolSharp size='30%' color='#37a430'/>,
             link: '/education', 
             text: "View my academic history, studies at Dartmouth, and some of my favorite courses that I've taken."
         },
         {
             title: 'Experience',
-            icon: <HiClipboardDocumentList size='30%' color='#e6bdff'/>,
+            icon: <HiClipboardDocumentList size='30%' color='#9129e6'/>,
             link: '/experience', 
-            text: "Some details about my work experience and internships."
-        },
-        {
-            title: 'Projects',
-            icon: <FaGitAlt size='25%' color='#fff875'/>, 
-            link: '/projects', 
-            text: "Explore some of the main projects i've worked on, including both personal and school projects."
+            text: "Some details about my work experience and my favorite coding projects I've completed."
         },
         {
             title: 'Hobbies',
-            icon: <MdOutlineSportsHandball size='30%' color='#86ff9c'/>,
+            icon: <MdOutlineSportsHandball size='30%' color='#00c39f'/>,
             link: '/hobbies', 
-            text: "Take a look at what I do in my free time and on campus at Dartmouth."
+            text: "Take a look at what I like to do in my free time and on campus at Dartmouth."
         },
-        {
-            title: 'Contact',
-            icon: <IoIosContact size='30%' color='#ff9b9b'/>,
-            link: '/contact',
-            text: "View my academic history, studies at Dartmouth, and some of my favorite courses that I've taken"
-        }];
+    ];
+
     return (
         <div className="Home">
             <div className='name-container'>
@@ -78,16 +67,17 @@ const Home = () => {
                 <div className='about-me-text-container'>
                     <Fade triggerOnce keyframes={slideUp} fraction={0.5} duration={2000}>
                             <h2>About Me</h2>
-                            <p>
-                                I'm an aspiring software developer and a third year student at Dartmouth College. I'm from <span style={{color: '#080808'}}>Fort Worth, Texas, </span>and am currently living in <span style={{color: '#080808'}}>San Francisco, California, </span>for my off term. I'm passionate about coding, music, and sports, and I play on the Men's club volleyball team and for a student band at Dartmouth.  I'm most interested in full stack development, but also enjoy machine learning and data science.</p>
+                            <p>I'm an aspiring software developer and a third year student at Dartmouth College. I'm from <span style={{color: '#080808'}}>Fort Worth, Texas, </span>and am currently living in <span style={{color: '#080808'}}>San Francisco, California, </span>for my off term. I'm passionate about coding, music, and sports, and I play on the Men's club volleyball team and for a student band at Dartmouth.  I'm most interested in full stack development, but also enjoy machine learning and data science.</p>
                     </Fade>
                 </div>
             </div>
             <div className='home-border'></div>
             <div className='home-sections-container'> 
-                <div className='home-sections-title'>
-                    <h2>Explore</h2>
-                </div>
+                    <div className='home-sections-title'>
+                        <Fade triggerOnce fraction={0.5} duration={2000}>
+                            <h2>Explore</h2>
+                        </Fade>
+                    </div>
                 <div className='section-card-container'>
                     <ul className='sections-card-list'>
                         {cards.map((sectionCard, index) => (
@@ -104,6 +94,23 @@ const Home = () => {
                             </li>
                         ))}
                     </ul>
+                </div>
+            </div>
+            <div className='contact-container'>
+                    <div className='border'></div>
+                <div className='contact-header'>
+                    <h1>Contact</h1>
+                </div>
+                <div className='contact-content'>
+                    <div className='contact-card'>
+                        <h2 className='email-address'>Email: brendan.n.shaw.25@dartmouth.edu</h2>
+                        <Link to='https://www.linkedin.com/in/brendanshaw14' target="_blank" className="link-card">
+                            <h2>LinkedIn</h2> 
+                        </Link>
+                        <Link to='https://github.com/brendanshaw14?tab=repositories' target="_blank" className="link-card">
+                            <h2>GitHub</h2> 
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

@@ -14,8 +14,12 @@ const Experience = () => {
     return (
         <div>
             <div className='intro-container'>
-                <h1>Experience & Projects</h1>
-                <h2>Some of my work experience in tech and my favorite personal and school coding projects.</h2>
+                <Fade triggerOnce fraction={0.5} duration={1000}>
+                    <div className='intro-container-text'>
+                        <h1>Experience & Projects</h1>
+                        <h2>Some of my work experience in tech and my favorite personal and school coding projects.</h2>
+                    </div>
+                </Fade>
             </div>
             <div className='experience-container'>
                 <div className='border'></div>
@@ -42,9 +46,11 @@ const Experience = () => {
                 </div>
             </div>
             <div className='projects-container'>
+                <Fade triggerOnce fraction={1} duration={1000}>
                 <div className='projects-header'>
                     <h1>Projects</h1>
                 </div>
+                </Fade>
                 <div className='projects-content'>
                     <div className='project-card-container'>
                         <Link to='https://github.com/brendanshaw14/Chord-Predictor/blob/main/final.ipynb' target="_blank" className="project-link">

@@ -47,12 +47,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #1a1a1a;
+    background-color: #121212;
     text-align: center;
 }
 
 .major-text-container {
-    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .major-text-container h1{
@@ -66,6 +69,7 @@
 }
 
 .major-cards-container {
+    padding-left: 5%;
     box-sizing: border-box;
     padding-bottom: 5%;
     width: 100%;
@@ -81,28 +85,76 @@
     list-style: none;
     height: 100%;
     gap: 5vw;
+    padding-right: 5%;
 }
+
+.major-cards-container .major-card-list li:last-child {
+  padding-right: 10%; /* Provides padding at the end */
+}
+
 
 .major-cards-container::-webkit-scrollbar {
     display: none; /* Hides the scrollbar */
 }
 
 .minor-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #ffffff;
-    padding: 5%;
+    background-color: #121212;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
 }
 
-.minor-content-container {
-    margin-bottom: 5vh;
-    width: 100%; 
+.minor-text-header h1 { 
+    color: white;
+    font-size: 6vw;
 }
 
+.minor-content-container {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.minor-text-container { 
+    font-size: 2vw;
+    text-align: left;
+    line-height: 150%;
+    color: #d0d0d0;
+    font-weight: bold;
+    max-width: 50%;
+}
+
+.minor-text-container span{ 
+    color: white;
+}
+
+.minor-photo-container img{
+    width: 30vw;
+    height: auto;
+    padding-top: 2vw;
+}
+
+.other-interests-container { 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-interests-container h2{ 
+    text-align: center;
+    font-size: 2vw;
+    color: #c8c8c8;
+}
 
 .color-test{
-    background-attachment: #4b4b4b;
+    background-attachment: #d0d0d0;
 }

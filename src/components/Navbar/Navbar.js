@@ -20,9 +20,6 @@ const Navbar = () => {
         <li className={location.pathname === '/hobbies' ? 'active' : ''}>
           <Link to="/hobbies">Hobbies</Link>
         </li>
-        <li className={location.pathname === '/contact' ? 'active' : ''}>
-          <Link to="/contact">Contact</Link>
-        </li>
       </ul>
     </nav>
   );
