@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.50308a64.css",
-    "main.js": "/static/js/main.dbcf812e.js",
-    "static/media/fsp.jpg": "/static/media/fsp.4e0865ee0a2583879557.jpg",
-    "static/media/pfp.jpg": "/static/media/pfp.9de403020d0710ef1001.jpg",
-    "static/media/skiing.jpg": "/static/media/skiing.7a4eaf7889c59a0c6ad0.jpg",
-    "static/media/toadboat.jpg": "/static/media/toadboat.120e0db65d962a34e060.jpg",
-    "static/media/dartmouth_aerial.jpeg": "/static/media/dartmouth_aerial.53d6e3ec987ecc0e292c.jpeg",
-    "static/media/Merriweather-Regular.ttf": "/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
-    "static/media/Merriweather-Light.ttf": "/static/media/Merriweather-Light.43706a2883eb57c79284.ttf",
-    "static/media/Merriweather-Bold.ttf": "/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
-    "index.html": "/index.html",
-    "main.50308a64.css.map": "/static/css/main.50308a64.css.map",
-    "main.dbcf812e.js.map": "/static/js/main.dbcf812e.js.map"
+    "main.css": "/personal-website/static/css/main.67519ad3.css",
+    "main.js": "/personal-website/static/js/main.bc36ffef.js",
+    "static/media/fsp.jpg": "/personal-website/static/media/fsp.4e0865ee0a2583879557.jpg",
+    "static/media/pfp.jpg": "/personal-website/static/media/pfp.9de403020d0710ef1001.jpg",
+    "static/media/skiing.jpg": "/personal-website/static/media/skiing.7a4eaf7889c59a0c6ad0.jpg",
+    "static/media/toadboat.jpg": "/personal-website/static/media/toadboat.120e0db65d962a34e060.jpg",
+    "static/media/dartmouth_aerial.jpeg": "/personal-website/static/media/dartmouth_aerial.53d6e3ec987ecc0e292c.jpeg",
+    "static/media/Merriweather-Regular.ttf": "/personal-website/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/Merriweather-Light.ttf": "/personal-website/static/media/Merriweather-Light.43706a2883eb57c79284.ttf",
+    "static/media/Merriweather-Bold.ttf": "/personal-website/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
+    "index.html": "/personal-website/index.html",
+    "main.67519ad3.css.map": "/personal-website/static/css/main.67519ad3.css.map",
+    "main.bc36ffef.js.map": "/personal-website/static/js/main.bc36ffef.js.map"
   },
   "entrypoints": [
-    "static/css/main.50308a64.css",
-    "static/js/main.dbcf812e.js"
+    "static/css/main.67519ad3.css",
+    "static/js/main.bc36ffef.js"
   ]
 }

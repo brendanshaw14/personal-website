@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="nav-links">
          <li className={location.pathname === '/' ? 'active' : ''}>
-          <Link to="/">Home</Link>
+          <Link to="/personal-website">Home</Link>
         </li>
         <li className={location.pathname === '/education' ? 'active' : ''}>
           <Link to="/education">Education</Link>

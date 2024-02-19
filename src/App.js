@@ -19,7 +19,7 @@ function App() {
         <Navbar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/personal-website" element={<Home />} />
         <Route path="/education" element={<Education />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/hobbies" element={<Hobbies />} />
