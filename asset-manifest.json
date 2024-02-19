@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.5b0f79d9.css",
-    "main.js": "/home/static/js/main.f8ea3f67.js",
-    "static/media/fsp.jpg": "/home/static/media/fsp.4e0865ee0a2583879557.jpg",
-    "static/media/pfp.jpg": "/home/static/media/pfp.9de403020d0710ef1001.jpg",
-    "static/media/skiing.jpg": "/home/static/media/skiing.7a4eaf7889c59a0c6ad0.jpg",
-    "static/media/toadboat.jpg": "/home/static/media/toadboat.120e0db65d962a34e060.jpg",
-    "static/media/dartmouth_aerial.jpeg": "/home/static/media/dartmouth_aerial.53d6e3ec987ecc0e292c.jpeg",
-    "static/media/Merriweather-Regular.ttf": "/home/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
-    "static/media/Merriweather-Light.ttf": "/home/static/media/Merriweather-Light.43706a2883eb57c79284.ttf",
-    "static/media/Merriweather-Bold.ttf": "/home/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
-    "index.html": "/home/index.html",
-    "main.5b0f79d9.css.map": "/home/static/css/main.5b0f79d9.css.map",
-    "main.f8ea3f67.js.map": "/home/static/js/main.f8ea3f67.js.map"
+    "main.css": "/static/css/main.50308a64.css",
+    "main.js": "/static/js/main.dbcf812e.js",
+    "static/media/fsp.jpg": "/static/media/fsp.4e0865ee0a2583879557.jpg",
+    "static/media/pfp.jpg": "/static/media/pfp.9de403020d0710ef1001.jpg",
+    "static/media/skiing.jpg": "/static/media/skiing.7a4eaf7889c59a0c6ad0.jpg",
+    "static/media/toadboat.jpg": "/static/media/toadboat.120e0db65d962a34e060.jpg",
+    "static/media/dartmouth_aerial.jpeg": "/static/media/dartmouth_aerial.53d6e3ec987ecc0e292c.jpeg",
+    "static/media/Merriweather-Regular.ttf": "/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/Merriweather-Light.ttf": "/static/media/Merriweather-Light.43706a2883eb57c79284.ttf",
+    "static/media/Merriweather-Bold.ttf": "/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
+    "index.html": "/index.html",
+    "main.50308a64.css.map": "/static/css/main.50308a64.css.map",
+    "main.dbcf812e.js.map": "/static/js/main.dbcf812e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b0f79d9.css",
-    "static/js/main.f8ea3f67.js"
+    "static/css/main.50308a64.css",
+    "static/js/main.dbcf812e.js"
   ]
 }
