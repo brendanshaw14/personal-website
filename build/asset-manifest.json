@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/brendanshaw14/personal-website.git/static/css/main.74a8acbf.css",
+    "main.js": "/brendanshaw14/personal-website.git/static/js/main.c52f1c54.js",
+    "static/media/fsp.jpg": "/brendanshaw14/personal-website.git/static/media/fsp.4e0865ee0a2583879557.jpg",
+    "static/media/pfp.jpg": "/brendanshaw14/personal-website.git/static/media/pfp.9de403020d0710ef1001.jpg",
+    "static/media/skiing.jpg": "/brendanshaw14/personal-website.git/static/media/skiing.7a4eaf7889c59a0c6ad0.jpg",
+    "static/media/toadboat.jpg": "/brendanshaw14/personal-website.git/static/media/toadboat.120e0db65d962a34e060.jpg",
+    "static/media/dartmouth_aerial.jpeg": "/brendanshaw14/personal-website.git/static/media/dartmouth_aerial.53d6e3ec987ecc0e292c.jpeg",
+    "static/media/Merriweather-Regular.ttf": "/brendanshaw14/personal-website.git/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/Merriweather-Light.ttf": "/brendanshaw14/personal-website.git/static/media/Merriweather-Light.43706a2883eb57c79284.ttf",
+    "static/media/Merriweather-Bold.ttf": "/brendanshaw14/personal-website.git/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
+    "index.html": "/brendanshaw14/personal-website.git/index.html",
+    "main.74a8acbf.css.map": "/brendanshaw14/personal-website.git/static/css/main.74a8acbf.css.map",
+    "main.c52f1c54.js.map": "/brendanshaw14/personal-website.git/static/js/main.c52f1c54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74a8acbf.css",
+    "static/js/main.c52f1c54.js"
+  ]
+}
